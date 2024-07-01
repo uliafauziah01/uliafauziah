@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Formulir Pendaftaran Pembukaan Rekening</h1>
+    <form id="registrationForm" action="">
+        <div class="container">
+
+            <div class="form-group">
+                <label for="namaLengkap">Nama Lengkap</label>
+                <input type="text" name="namaLengkap" id="namaLengkap">
+            </div>
+        <div class="form-group">
+            <label for="namaAlias">Nama Alias</label>
+            <input type="text" name="namaAlias" id="namaAlias">
+        </div>
+        <div class="form-group">
+            <label for="tempatLahir">Tempat Lahir</label>
+            <input type="text" name="tempatLahir" id="tempatLahir">
+        </div>
+        <div class="form-group">
+            <label for="tanggalLahir">Tanggal Lahir</label>
+            <input type="date" name="tanggalLahir" id="tanggalLahir">
+        </div>
+        <div class="form-group">
+            <label>Jenis Kelamin</label>
+            <label><input type="radio" name="jenis_kelamin" value="Laki-laki" checked> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</label>
+        </div>
+        <div class="form-group">
+            <label for="nomorTelepon">Nomor Telepon</label>
+            <input type="number" name="nomorTelepon" id="nomorTelepon">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+            <label>Jenis Identitas</label>
+            <label><input type="radio" name="jenis_identitas" value="KTP" checked> KTP</label>
+            <label><input type="radio" name="jenis_identitas" value="PASPOR"> PASPOR</label>
+        </div>
+        <div class="form-group">
+            <label for="nomor_identitas">Nomor Identitas</label>
+            <input type="number" name="nomor_identitas" id="nomor_identitas">
+        </div>
+        <div class="form-group">
+            <label for="status_identitas">Status Identitas</label>
+            <input type="text" name="status_identitas" id="status_identitas">
+        </div>
+        <div class="form-group">
+            <label for="alamatId">Alamat Sesuai ID</label>
+            <input type="text" name="alamatId" id="alamatId">
+        </div>
+        <div class="form-group">
+            <label>Jenis Kartu Debit</label>
+            <label><input type="radio" name="jenis_debit" value="GOLD" checked> GOLD</label>
+            <label><input type="radio" name="jenis_debit" value="SILVER"> SILVER</label>
+            <label><input type="radio" name="jenis_debit" value="PLATINUM"> PLATINUM</label>
+        </div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
